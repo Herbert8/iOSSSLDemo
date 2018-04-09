@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1381A25AFF47C280E733F9 /* libPods-TestiOSSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAA91E4B485B38B294E7057 /* libPods-TestiOSSSL.a */; };
+		9D5BA06320791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05320791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.m */; };
+		9D5BA06420791146007AD8CC /* FDTAuthenticationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05520791146007AD8CC /* FDTAuthenticationProcessor.m */; };
+		9D5BA06520791146007AD8CC /* CacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05820791146007AD8CC /* CacheStoragePolicy.m */; };
+		9D5BA06620791146007AD8CC /* CanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05A20791146007AD8CC /* CanonicalRequest.m */; };
+		9D5BA06720791146007AD8CC /* ClientCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05C20791146007AD8CC /* ClientCertificate.m */; };
+		9D5BA06820791146007AD8CC /* CustomHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA05E20791146007AD8CC /* CustomHTTPProtocol.m */; };
+		9D5BA06920791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA06020791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.m */; };
+		9D5BA06A20791146007AD8CC /* QNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BA06220791146007AD8CC /* QNSURLSessionDemux.m */; };
+		9D6F9148207BF46A005126AF /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F9146207BF46A005126AF /* client.p12 */; };
+		9D6F914A207BF5DD005126AF /* ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F9149207BF5DD005126AF /* ca.cer */; };
+		9DFF96A81F3FD8380069AD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF96A71F3FD8380069AD6A /* main.m */; };
+		9DFF96AB1F3FD8380069AD6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF96AA1F3FD8380069AD6A /* AppDelegate.m */; };
+		9DFF96AE1F3FD8380069AD6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF96AD1F3FD8380069AD6A /* ViewController.m */; };
+		9DFF96B11F3FD8380069AD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF96AF1F3FD8380069AD6A /* Main.storyboard */; };
+		9DFF96B31F3FD8380069AD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF96B21F3FD8380069AD6A /* Assets.xcassets */; };
+		9DFF96B61F3FD8380069AD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF96B41F3FD8380069AD6A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DAA91E4B485B38B294E7057 /* libPods-TestiOSSSL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestiOSSSL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5BA05220791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTAFNetworkingAuthenticationProcessor.h; sourceTree = "<group>"; };
+		9D5BA05320791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTAFNetworkingAuthenticationProcessor.m; sourceTree = "<group>"; };
+		9D5BA05420791146007AD8CC /* FDTAuthenticationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTAuthenticationProcessor.h; sourceTree = "<group>"; };
+		9D5BA05520791146007AD8CC /* FDTAuthenticationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTAuthenticationProcessor.m; sourceTree = "<group>"; };
+		9D5BA05720791146007AD8CC /* CacheStoragePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheStoragePolicy.h; sourceTree = "<group>"; };
+		9D5BA05820791146007AD8CC /* CacheStoragePolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheStoragePolicy.m; sourceTree = "<group>"; };
+		9D5BA05920791146007AD8CC /* CanonicalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonicalRequest.h; sourceTree = "<group>"; };
+		9D5BA05A20791146007AD8CC /* CanonicalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanonicalRequest.m; sourceTree = "<group>"; };
+		9D5BA05B20791146007AD8CC /* ClientCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCertificate.h; sourceTree = "<group>"; };
+		9D5BA05C20791146007AD8CC /* ClientCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCertificate.m; sourceTree = "<group>"; };
+		9D5BA05D20791146007AD8CC /* CustomHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHTTPProtocol.h; sourceTree = "<group>"; };
+		9D5BA05E20791146007AD8CC /* CustomHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHTTPProtocol.m; sourceTree = "<group>"; };
+		9D5BA05F20791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTURLProtocolAuthenticationProcessor.h; sourceTree = "<group>"; };
+		9D5BA06020791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTURLProtocolAuthenticationProcessor.m; sourceTree = "<group>"; };
+		9D5BA06120791146007AD8CC /* QNSURLSessionDemux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSURLSessionDemux.h; sourceTree = "<group>"; };
+		9D5BA06220791146007AD8CC /* QNSURLSessionDemux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSURLSessionDemux.m; sourceTree = "<group>"; };
+		9D6F9146207BF46A005126AF /* client.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.p12; sourceTree = "<group>"; };
+		9D6F9149207BF5DD005126AF /* ca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.cer; sourceTree = "<group>"; };
+		9DFF96A31F3FD8380069AD6A /* TestiOSSSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestiOSSSL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFF96A71F3FD8380069AD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFF96A91F3FD8380069AD6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DFF96AA1F3FD8380069AD6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DFF96AC1F3FD8380069AD6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DFF96AD1F3FD8380069AD6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DFF96B01F3FD8380069AD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DFF96B21F3FD8380069AD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFF96B51F3FD8380069AD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DFF96B71F3FD8380069AD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD2FD31154C37C4128F8B49 /* Pods-TestiOSSSL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOSSSL.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOSSSL/Pods-TestiOSSSL.release.xcconfig"; sourceTree = "<group>"; };
+		EAA85FFFDB973FE56B8A28C5 /* Pods-TestiOSSSL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOSSSL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOSSSL/Pods-TestiOSSSL.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFF96A01F3FD8380069AD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1381A25AFF47C280E733F9 /* libPods-TestiOSSSL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091239423CB718FEAB46F666 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAA85FFFDB973FE56B8A28C5 /* Pods-TestiOSSSL.debug.xcconfig */,
+				DBD2FD31154C37C4128F8B49 /* Pods-TestiOSSSL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E9711DB3672E1E4DD33995E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DAA91E4B485B38B294E7057 /* libPods-TestiOSSSL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5BA05120791146007AD8CC /* AuthenticationProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				9D5BA05220791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.h */,
+				9D5BA05320791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.m */,
+				9D5BA05420791146007AD8CC /* FDTAuthenticationProcessor.h */,
+				9D5BA05520791146007AD8CC /* FDTAuthenticationProcessor.m */,
+				9D5BA05620791146007AD8CC /* URLProtocolAuthenticationProcessor */,
+			);
+			path = AuthenticationProcessor;
+			sourceTree = "<group>";
+		};
+		9D5BA05620791146007AD8CC /* URLProtocolAuthenticationProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				9D5BA05720791146007AD8CC /* CacheStoragePolicy.h */,
+				9D5BA05820791146007AD8CC /* CacheStoragePolicy.m */,
+				9D5BA05920791146007AD8CC /* CanonicalRequest.h */,
+				9D5BA05A20791146007AD8CC /* CanonicalRequest.m */,
+				9D5BA05B20791146007AD8CC /* ClientCertificate.h */,
+				9D5BA05C20791146007AD8CC /* ClientCertificate.m */,
+				9D5BA05D20791146007AD8CC /* CustomHTTPProtocol.h */,
+				9D5BA05E20791146007AD8CC /* CustomHTTPProtocol.m */,
+				9D5BA05F20791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.h */,
+				9D5BA06020791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.m */,
+				9D5BA06120791146007AD8CC /* QNSURLSessionDemux.h */,
+				9D5BA06220791146007AD8CC /* QNSURLSessionDemux.m */,
+			);
+			path = URLProtocolAuthenticationProcessor;
+			sourceTree = "<group>";
+		};
+		9D6F9144207BF46A005126AF /* cert */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F9149207BF5DD005126AF /* ca.cer */,
+				9D6F9146207BF46A005126AF /* client.p12 */,
+			);
+			path = cert;
+			sourceTree = "<group>";
+		};
+		9DFF969A1F3FD8380069AD6A = {
+			isa = PBXGroup;
+			children = (
+				9DFF96A51F3FD8380069AD6A /* TestiOSSSL */,
+				9DFF96A41F3FD8380069AD6A /* Products */,
+				091239423CB718FEAB46F666 /* Pods */,
+				0E9711DB3672E1E4DD33995E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFF96A41F3FD8380069AD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF96A31F3FD8380069AD6A /* TestiOSSSL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFF96A51F3FD8380069AD6A /* TestiOSSSL */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F9144207BF46A005126AF /* cert */,
+				9D5BA05120791146007AD8CC /* AuthenticationProcessor */,
+				9DFF96A91F3FD8380069AD6A /* AppDelegate.h */,
+				9DFF96AA1F3FD8380069AD6A /* AppDelegate.m */,
+				9DFF96AC1F3FD8380069AD6A /* ViewController.h */,
+				9DFF96AD1F3FD8380069AD6A /* ViewController.m */,
+				9DFF96AF1F3FD8380069AD6A /* Main.storyboard */,
+				9DFF96B21F3FD8380069AD6A /* Assets.xcassets */,
+				9DFF96B41F3FD8380069AD6A /* LaunchScreen.storyboard */,
+				9DFF96B71F3FD8380069AD6A /* Info.plist */,
+				9DFF96A61F3FD8380069AD6A /* Supporting Files */,
+			);
+			path = TestiOSSSL;
+			sourceTree = "<group>";
+		};
+		9DFF96A61F3FD8380069AD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF96A71F3FD8380069AD6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFF96A21F3FD8380069AD6A /* TestiOSSSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFF96BA1F3FD8380069AD6A /* Build configuration list for PBXNativeTarget "TestiOSSSL" */;
+			buildPhases = (
+				3C58400A53DE84305EFFB42D /* [CP] Check Pods Manifest.lock */,
+				9DFF969F1F3FD8380069AD6A /* Sources */,
+				9DFF96A01F3FD8380069AD6A /* Frameworks */,
+				9DFF96A11F3FD8380069AD6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestiOSSSL;
+			productName = TestiOSSSL;
+			productReference = 9DFF96A31F3FD8380069AD6A /* TestiOSSSL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFF969B1F3FD8380069AD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "巴宏斌";
+				TargetAttributes = {
+					9DFF96A21F3FD8380069AD6A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = NTDRU2P6T4;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9DFF969E1F3FD8380069AD6A /* Build configuration list for PBXProject "TestiOSSSL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFF969A1F3FD8380069AD6A;
+			productRefGroup = 9DFF96A41F3FD8380069AD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFF96A21F3FD8380069AD6A /* TestiOSSSL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFF96A11F3FD8380069AD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF96B61F3FD8380069AD6A /* LaunchScreen.storyboard in Resources */,
+				9D6F914A207BF5DD005126AF /* ca.cer in Resources */,
+				9DFF96B31F3FD8380069AD6A /* Assets.xcassets in Resources */,
+				9DFF96B11F3FD8380069AD6A /* Main.storyboard in Resources */,
+				9D6F9148207BF46A005126AF /* client.p12 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C58400A53DE84305EFFB42D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestiOSSSL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFF969F1F3FD8380069AD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5BA06720791146007AD8CC /* ClientCertificate.m in Sources */,
+				9D5BA06320791146007AD8CC /* FDTAFNetworkingAuthenticationProcessor.m in Sources */,
+				9DFF96AE1F3FD8380069AD6A /* ViewController.m in Sources */,
+				9DFF96AB1F3FD8380069AD6A /* AppDelegate.m in Sources */,
+				9D5BA06620791146007AD8CC /* CanonicalRequest.m in Sources */,
+				9D5BA06820791146007AD8CC /* CustomHTTPProtocol.m in Sources */,
+				9DFF96A81F3FD8380069AD6A /* main.m in Sources */,
+				9D5BA06920791146007AD8CC /* FDTURLProtocolAuthenticationProcessor.m in Sources */,
+				9D5BA06520791146007AD8CC /* CacheStoragePolicy.m in Sources */,
+				9D5BA06A20791146007AD8CC /* QNSURLSessionDemux.m in Sources */,
+				9D5BA06420791146007AD8CC /* FDTAuthenticationProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DFF96AF1F3FD8380069AD6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF96B01F3FD8380069AD6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFF96B41F3FD8380069AD6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF96B51F3FD8380069AD6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFF96B81F3FD8380069AD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DFF96B91F3FD8380069AD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFF96BB1F3FD8380069AD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA85FFFDB973FE56B8A28C5 /* Pods-TestiOSSSL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NTDRU2P6T4;
+				INFOPLIST_FILE = TestiOSSSL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bahb.TestiOSSSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ed705d3-d5a8-4d2f-8d78-5807b1c02a07";
+				PROVISIONING_PROFILE_SPECIFIER = BHBMocha4DevAllProfile;
+			};
+			name = Debug;
+		};
+		9DFF96BC1F3FD8380069AD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD2FD31154C37C4128F8B49 /* Pods-TestiOSSSL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TestiOSSSL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bahb.TestiOSSSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFF969E1F3FD8380069AD6A /* Build configuration list for PBXProject "TestiOSSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFF96B81F3FD8380069AD6A /* Debug */,
+				9DFF96B91F3FD8380069AD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFF96BA1F3FD8380069AD6A /* Build configuration list for PBXNativeTarget "TestiOSSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFF96BB1F3FD8380069AD6A /* Debug */,
+				9DFF96BC1F3FD8380069AD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFF969B1F3FD8380069AD6A /* Project object */;
+}
